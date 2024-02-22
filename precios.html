@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colormar</title>
+    <link rel="shortcut icon " href="asset/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(25, 132, 203), rgb(223, 116, 220));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+            margin: 0 auto;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+            margin-top: 135px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Colormar tu solucion en pinturas!</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="precios.html">Precios</a></li>
+                <li><a href="quienesomos.html">¿Quienes somos?</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <h2>Productos que ofrecemos:</h2>
+        <hr>
+        <section>
+            <article>
+              <table>
+                <colgroup>
+                <col style="background-color: rgb(250, 244, 244)"">
+                <col>
+                <col>
+                <col>
+                <col>
+                </colgroup>
+               
+                <th>Productos:</th>
+                <th>Precios:</th>
+                <th>calidad</th>
+                <tr>
+                    <td>Solintex</td>
+                    <td>22$</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>Pinco</td>
+                    <td>18$</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>Montana</td>
+                    <td>30$</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Coloreal</td>
+                    <td>10$</td>
+                    <td>C</td>
+                </tr>
+           
+              </table>
+            </article>
+        </section>
+    </header>
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
